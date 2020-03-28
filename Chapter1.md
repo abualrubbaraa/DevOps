@@ -2,6 +2,7 @@
 # Chatpter 1  :- (DevOps Culture and Practices)
 
 ## Important Abbreviation and Concepts
+
 Abbreviation | Stands for
 ------------ | -------------
 DevOps | Content from cell 2
@@ -93,7 +94,7 @@ PaaS | Platform as a Service
     1. Build the application package—compilation, file transformation, and so on.
     2. Perform unit tests (with code coverage).
 
-![](images/CI.jpg)
+![](images/CI.png)
 
   * CD aims to test the entire application with all of its dependencies, so it is indeed necessary so that developers can have at each  only the execution of unit tests but also a verification of the application as a whole (UI and functional).
   * The deployment of the application in each staging environment can be triggered in two ways :
@@ -103,7 +104,7 @@ Automatically | Manually
 Following a successful execution on a previous environment | Sensitive environments such as the production environment
 Integration tests have been successfully performed in a dedicated environment | Manual approval by a person responsible for validating the project
 
-![](images/CD.jpg)
+![](images/CD.png)
 
 #### Continuos Deployment 
   - Continuous deployment is an extension of CD, but this time, with a process that automates the entire CI/CD pipeline from the moment the developer commits their code to deployment in production through all of the verification steps.
