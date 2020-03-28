@@ -78,7 +78,7 @@ PaaS | Platform as a Service
  * ##### Tools :-
   * Deployment tools for developers and Infrastructure tools for Ops.
 
-![](images/DevOps_3axis.jpg)
+![](images/DevOps_3axis.png)
 
 
 ### The benefits of establishing a DevOps culture within an enterprise :-
@@ -116,9 +116,9 @@ encapsulating the application's functionalities in features and activating its f
 
   - Continuous Deployment have the same cycle of CI/CD but it depicts automated end-to-end deployment.
 
-#### IaC 
+#### infrastructure as code (IaC) 
   
-  ###### IaC languages
+  - ##### IaC languages
  
     1. Scripting types
       - Is is 
@@ -129,7 +129,7 @@ encapsulating the application's functionalities in features and activating its f
       - Writing the state of the desired system or infrastructure in the form of configuration and properties.
       - The user only has to write the final state of the desired infrastructure and the tool takes care of applying it.
 
-  ###### IaC Topology
+  - ##### IaC Topology
    
     1. The deployment and provisioning of the infrastructure 
       - Provisioning is the act of instantiating the resources that make up the infrastructure.
@@ -149,7 +149,7 @@ encapsulating the application's functionalities in features and activating its f
       - It deploys containers, the network architecture (load balancer, ports, and so on), and the volume management, as well as the protection of sensitive information, are described completely in the YAML specification files.
 
 
-#### IaC best practices 
+#### infrastructure as code (IaC) best practices 
     1. Everything must be automated in the code.
     2. The code must be in a source control manager
     3. The infrastructure code must be with the application code
@@ -165,13 +165,16 @@ encapsulating the application's functionalities in features and activating its f
   1. ###### CI 
     1. SCM :- Git.
     2. CI server :- GitHub ,  *Jenkins*.
+
   2. ###### CD 
     1. Package Manager :- Nexus, ProGet, Artifactory, and Azure Artifacts.
     2. Configuration Manager.
+  
   3. ###### IaP
+
     1. Languages 
-      1. Scripting types :- Azure CLI or Azure PowerShell
-      2. Declarative types :- for Terraform and Vagrant from HashiCorp, Ansible, the Azure ARM template, PowerShell DSC, Puppet, and Chef.
+      - Scripting types :- Azure CLI or Azure PowerShell
+      - Declarative types :- for Terraform and Vagrant from HashiCorp, Ansible, the Azure ARM template, PowerShell DSC, Puppet, and Chef.
     2. Provisioning tools :- Terraform, ARM template, AWS Cloud training,Azure CLI, Azure PowerShell and also Google Cloud Deployment Manager.
     3. Configuration tools :- Ansible, PowerShell DSC, Chef, Puppet, and SaltStack.
     4. Containerization :- Docker.
