@@ -104,7 +104,7 @@ Automatically | Manually
 Following a successful execution on a previous environment | Sensitive environments such as the production environment
 Integration tests have been successfully performed in a dedicated environment | Manual approval by a person responsible for validating the project
 
-![](images/CD.png)
+![](images/CI.png)
 
 #### Continuos Deployment 
   - Continuous deployment is an extension of CD, but this time, with a process that automates the entire CI/CD pipeline from the moment the developer commits their code to deployment in production through all of the verification steps.
