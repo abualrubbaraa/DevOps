@@ -55,13 +55,13 @@ PaaS | Platform as a Service
   
    * **Provisioning** : The act of instantiating the resources that make up the infastructure.
 
-#### What is DevOps?
+#### What Is DevOps?
   * DevOps is the contraction of the words Development(Dev) and Operations(Ops).
   * This Culture is often associated with continuous integration (CI),continuous delivery (CD) practices and  with the concept of **Infrastructure as Code (IaC)**, which consists of codifying the structure and configuration of infrastructure.
 
   ![](images/DevOps_Cycle.jpg)
 
-#### The Three axes of DevOps Culture :-
+#### The Three Axes Of DevOps Culture :-
 
  * ##### The culture of collaboration :-
     The teams of the collaboration have to be multidisciplinary teams that have the same objective: to deliver added value to the product as quickly as possible. No more separation by silos specialization(Development , Operations ,testers ..).
@@ -81,7 +81,7 @@ PaaS | Platform as a Service
 ![](images/DevOps_3axis.png)
 
 
-### The benefits of establishing a DevOps culture within an enterprise :-
+### The Benefits of Establishing a DevOps Culture Within an Enterprise :-
    1. Better collaboration and communication in teams, which has a human and social impact within the company.
    2. Shorter lead times to production, resulting in better performance and end user satisfaction.
    3. Reduced infrastructure costs with IaC.
@@ -116,12 +116,11 @@ encapsulating the application's functionalities in features and activating its f
 
   - Continuous Deployment have the same cycle of CI/CD but it depicts automated end-to-end deployment.
 
-#### infrastructure as code (IaC) 
+#### Infrastructure As Code (IaC) 
   
   - ##### IaC languages
  
     1. Scripting types
-      - Is is 
       - Very useful for tasks that automate repetitive actions to be performed on a list of resources (selection and query) or that require complex processing with a certain logic to be performed on infrastructure resources 
       - Example .. a script that automates the deletion of VMs that carry a certain tag.
     
@@ -149,7 +148,7 @@ encapsulating the application's functionalities in features and activating its f
       - It deploys containers, the network architecture (load balancer, ports, and so on), and the volume management, as well as the protection of sensitive information, are described completely in the YAML specification files.
 
 
-#### infrastructure as code (IaC) best practices 
+#### Infrastructure As Code (IaC) Best Practices 
     1. Everything must be automated in the code.
     2. The code must be in a source control manager
     3. The infrastructure code must be with the application code
