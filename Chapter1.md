@@ -5,7 +5,7 @@
 
 Abbreviation | Stands for
 ------------ | -------------
-DevOps | Content from cell 2
+DevOps | Development Operations
 CI | Continuous Integration
 CD | Continuous Delivery
 IaC | Infrastructure as Code
